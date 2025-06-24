@@ -44,7 +44,6 @@ Este proyecto es un dashboard administrativo para gestionar propiedades de alqui
 
 3. Ejecuta el servidor de desarrollo:
    npm run dev
-   # o con yarn:
    yarn dev
 
 4. Abre http://localhost:3000 en tu navegador.
