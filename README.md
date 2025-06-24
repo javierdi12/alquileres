@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Home Rentals Admin Dashboard
 
-## Getting Started
+Proyecto sencillo para administración de propiedades en alquiler, construido con Next.js.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Demo en vivo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Puedes ver el proyecto desplegado en:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+[https://alquileres-ebon.vercel.app/](https://alquileres-ebon.vercel.app/)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Descripción
 
-To learn more about Next.js, take a look at the following resources:
+Este proyecto es un dashboard administrativo para gestionar propiedades de alquiler. Permite:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Inicio de sesión (validación frontend solamente).
+- Visualizar una lista de propiedades con detalles.
+- Consultar el clima actual de cada propiedad mediante integración con una API externa.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## Tecnologías usadas
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Next.js 
+- TypeScript
+- API pública para clima (Open-Meteo)
+- Despliegue en Vercel
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## Instalación y uso local
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/javierdi12/alquileres.git
+
+   2. Instala las dependencias:
+   npm install
+   # o con yarn:
+   yarn install
+
+3. Ejecuta el servidor de desarrollo:
+   npm run dev
+   # o con yarn:
+   yarn dev
+
+4. Abre http://localhost:3000 en tu navegador.
+
+## Dependencias principales
+
+- react
+- react-dom
+- next
+- typescript (si usas TS)
+
+---
+
+## Recursos útiles
+
+- Documentación Next.js: https://nextjs.org/docs
+- Tutorial oficial Learn Next.js: https://nextjs.org/learn
+- Repositorio oficial Next.js: https://github.com/vercel/next.js
+
+---
+
+   
+## Licencia
+
+MIT License
+
+Copyright (c) 2025 Javier Díaz
